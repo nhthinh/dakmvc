@@ -128,25 +128,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\default.css" />
-    <Content Include="Content\master.css" />
-    <Content Include="Content\popup2.css" />
-    <Content Include="Content\reset.css" />
-    <Content Include="Content\responsive.css" />
-    <Content Include="Content\theme.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\master.css" />
+    <Content Include="css\popup2.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\addpost.js" />
-    <Content Include="Scripts\Common.js" />
-    <Content Include="Scripts\jpopup.js" />
-    <Content Include="Scripts\jpopup2.js" />
-    <Content Include="Scripts\jquery-3.5.1.min.js" />
-    <Content Include="Scripts\jquery-ui.css" />
-    <Content Include="Scripts\jquery-ui.js" />
-    <Content Include="Scripts\jquery-ui.min.js" />
-    <Content Include="Scripts\mapvn.js" />
-    <Content Include="Scripts\master.js" />
-    <Content Include="Scripts\search.js" />
+    <Content Include="images\aaaaa.png" />
+    <Content Include="images\footer.PNG" />
+    <Content Include="images\house.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\qc1.PNG" />
+    <Content Include="images\qc2.PNG" />
+    <Content Include="images\styled-mode-column-default.png" />
+    <Content Include="images\tim.png" />
+    <Content Include="js\addpost.js" />
+    <Content Include="js\Common.js" />
+    <Content Include="js\jpopup.js" />
+    <Content Include="js\jpopup2.js" />
+    <Content Include="js\jquery-3.5.1.min.js" />
+    <Content Include="js\jquery-ui.css" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\mapvn.js" />
+    <Content Include="js\master.js" />
+    <Content Include="js\search.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -159,12 +167,18 @@
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\DAK\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Views\masterpage.cshtml" />
-    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Shared\_MasterPage.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\DAK\homepage.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

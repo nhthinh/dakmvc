@@ -9,9 +9,9 @@ namespace DAK_MVC.Controllers
     public class DAKController : Controller
     {
         // GET: DAK
-        public ActionResult Index()
+        public ActionResult homepage()
         {
-            return View();
+            return View("homepage");
         }
     }
 }
