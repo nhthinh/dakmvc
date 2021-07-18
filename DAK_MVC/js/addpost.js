@@ -1,28 +1,30 @@
 ﻿function AddPost() {
   
-    var surl = GetURL('newpost'); //  arr.join('/') + 'layouthtml/newpost.aspx';
-    $.ajax({
-        url: surl,
-        type: "GET",
-        cache: false,
-        success: function (content) {
-            var opt = [{
-                name: "Tiếp tục", fClick: function () {
-                    ClosePopup();
-                }
-            },{
-                name: "Hủy", fClick: function () {
-                    ClosePopup();
-                    }, className: "button-light"
-            }];
-            ShowPopup('Đăng tin', content, opt);
-            // dang ky event
-            $('#txtDiachi').blur(function () { alert();});
-        },
-        error: function (e) {
+    //var surl = GetURL('newpost'); //  arr.join('/') + 'layouthtml/newpost.aspx';
+    //$.ajax({
+    //    url: surl,
+    //    type: "GET",
+    //    cache: false,
+    //    success: function (content) {
+    //        var opt = [{
+    //            name: "Tiếp tục", fClick: function () {
+    //                ClosePopup();
+    //            }
+    //        },{
+    //            name: "Hủy", fClick: function () {
+    //                ClosePopup();
+    //                }, className: "button-light"
+    //        }];
+    //        ShowPopup('Đăng tin', content, opt);
+    //        // dang ky event
+    //        $('#txtDiachi').blur(function () { alert();});
+    //    },
+    //    error: function (e) {
 
-        }
-    });
+    //    }
+    //});
+  
+    window.locationbar.href = '/DAK/NewPost';
  
 }
 

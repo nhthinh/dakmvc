@@ -179,6 +179,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\DAK\homepage.cshtml" />
+    <Content Include="Views\DAK\NewPost.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
